@@ -1,5 +1,5 @@
 {
-  "name": "react-hooks",
+  "name": "react-crud",
   "version": "0.1.1",
   "private": true,
   "dependencies": {
@@ -25,5 +25,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://yakkantiraja.github.io/react-hooks"
+  "homepage": "https://yakkantiraja.github.io/react-crud"
 }
