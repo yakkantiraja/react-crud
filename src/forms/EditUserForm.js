@@ -29,6 +29,13 @@ const EditUserForm = props => {
       <input type="text" name="name" value={user.name} onChange={handleInputChange} />
       <label>Username</label>
       <input type="text" name="username" value={user.username} onChange={handleInputChange} />
+      <label>Language</label>
+			<select test-id="lang" name="lang" onChange={handleInputChange} value={user.lang}>
+				  <option value="select">Select</option>
+                  <option value="Java">Java</option>
+                  <option value="Python">Python</option>
+				          <option value="Javascript">Javascript</option>
+               </select>
       <button>Update user</button>
       <button onClick={() => props.setEditing(false)} className="button muted-button">
         Cancel
